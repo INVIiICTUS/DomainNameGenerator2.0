@@ -25,3 +25,26 @@ import "./assets/img/4geeks.ico";
 //     document.querySelector("#dominios").innerHTML = dominios();
 //   });
 // };
+
+window.onload = function() {
+  function dominios() {
+    let pronoun = ["the", "our", "it", "he", "she"];
+    let adj = ["great", "big", "small", "dangerous", "blue", "pink"];
+    let noun = ["jogger", "racoon", "dog", "driver", "comedian"];
+    let fin = [".com", ".es", ".us", ".it"];
+
+    for (let a of pronoun) {
+      for (let b of adj) {
+        for (let c of noun) {
+          for (let d of fin) {
+            console.log(a + b + c + d);
+          }
+        }
+      }
+    }
+  }
+  return dominios();
+  document.querySelector("#boton").addEventListener("click", () => {
+    document.querySelector("#dominios").innerHTML = dominios();
+  });
+};
