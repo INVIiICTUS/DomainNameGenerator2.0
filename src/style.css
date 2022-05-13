@@ -1,1 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: yellow;
+}
+p {
+  color: blue;
+  font-weight: bold;
+}
