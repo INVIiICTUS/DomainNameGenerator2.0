@@ -5,6 +5,8 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
+// Opcion A //
+
 // window.onload = function() {
 //   function dominios() {
 //     let pronoun = ["the", "our", "it", "he", "she"];
@@ -25,6 +27,9 @@ import "./assets/img/4geeks.ico";
 //     document.querySelector("#dominios").innerHTML = dominios();
 //   });
 // };
+
+// Opcion A //
+
 let dominio;
 
 window.onload = function() {
